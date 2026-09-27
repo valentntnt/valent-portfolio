@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valent Steve Asman - Computer Science Student</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Inter & FontAwesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Valent<span>.dev</span></a>
+            <nav class="nav-links">
+                <a href="#about">Tentang</a>
+                <a href="#education">Pendidikan</a>
+                <a href="#skills">Keahlian</a>
+                <a href="#projects">Proyek</a>
+                <a href="#contact">Kontak</a>
+            </nav>
+            <a href="#" class="btn btn-outline" onclick="alert('Unggah file CV PDF Anda di folder proyek dan sambungkan link-nya di sini!'); return false;">
+                <i class="fa-solid fa-download"></i> Unduh CV
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="badge">Computer Science Student</span>
+                <h1>Halo, Saya <span class="highlight">Valent Steve Asman</span></h1>
+                <p>Mahasiswa Universitas Bina Nusantara semester 5 yang berfokus pada Software Engineering, Cloud Computing, dan Data. Siap berkontribusi dalam program magang industri 1 tahun.</p>
+                <div class="hero-btns">
+                    <a href="#projects" class="btn btn-primary">Lihat Proyek</a>
+                    <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Education Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang & Pendidikan</h2>
+            <div class="about-grid">
+                
+                <!-- Card IPK & Status -->
+                <div class="card gpa-card">
+                    <div class="gpa-badge">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>IPK Rata-Rata Saat Ini</h3>
+                    <div class="gpa-score">3.82 <span>/ 4.00</span></div>
+                    <p>Universitas Bina Nusantara (BINUS)</p>
+                    <span class="sub-text">Computer Science (2024 - Sekarang)</span>
+                </div>
+
+                <!-- Detail Pendidikan -->
+                <div id="education" class="card ed-card">
+                    <h3><i class="fa-solid fa-book-open"></i> Mata Kuliah Utama</h3>
+                    <p>Fokus studi mencakup pengembangan perangkat lunak, struktur data, komputasi awan, dan kecerdasan buatan:</p>
+                    <div class="course-tags">
+                        <span class="tag">Algorithms & Data Structures</span>
+                        <span class="tag">Software Engineering</span>
+                        <span class="tag">Database Technology</span>
+                        <span class="tag">Artificial Intelligence</span>
+                        <span class="tag">Cloud Computing & Security</span>
+                        <span class="tag">Web Based Programming</span>
+                        <span class="tag">Object Oriented Programming</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills & Certifications Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Keahlian & Sertifikasi</h2>
+            <div class="skills-grid">
+                
+                <div class="card skill-card">
+                    <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                    <h3>Bahasa Pemrograman</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> C / C++</li>
+                        <li><i class="fa-solid fa-check"></i> Java</li>
+                        <li><i class="fa-solid fa-check"></i> Python</li>
+                        <li><i class="fa-solid fa-check"></i> PHP & JavaScript</li>
+                    </ul>
+                </div>
+
+                <div class="card skill-card">
+                    <div class="icon-box"><i class="fa-solid fa-database"></i></div>
+                    <h3>Database & Web Technology</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-check"></i> SQL / MySQL</li>
+                        <li><i class="fa-solid fa-check"></i> HTML5 & CSS3</li>
+                        <li><i class="fa-solid fa-check"></i> Pengelolaan Data Digital</li>
+                    </ul>
+                </div>
+
+                <div class="card skill-card">
+                    <div class="icon-box"><i class="fa-solid fa-certificate"></i></div>
+                    <h3>Sertifikasi Resmi</h3>
+                    <ul>
+                        <li><i class="fa-solid fa-award"></i> Google Cloud Computing Foundations Certificate</li>
+                        <li><i class="fa-solid fa-award"></i> Databases for Developers: Foundations Certificate</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Proyek Kuliah & Portofolio</h2>
+            <p class="section-subtitle">Berikut beberapa proyek akademik dan pribadi yang pernah saya kerjakan.</p>
+            
+            <div class="projects-grid">
+                
+                <!-- Project Card: Typer C Program Game -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-keyboard placeholder-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Typer C Program Game</h3>
+                        <p>Aplikasi game tes kecepatan mengetik berbasis C terminal dengan fitur Multi-Mode (Classic, Blitz, Hard, Infinite, Custom, PvP), autentikasi Login/Signup, dan pelacakan Leaderboard interaktif menggunakan File I/O.</p>
+                        <div class="project-tags">
+                            <span>C Language</span>
+                            <span>Algorithms & Sorting</span>
+                            <span>File Handling</span>
+                            <span>CLI Game</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- Link ke Repositori GitHub Anda -->
+                            <a href="https://github.com/valentntnt/Typer-C-Program-Game/tree/main" class="btn-sm" target="_blank">
+                                <i class="fa-brands fa-github"></i> Source Code / Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2: Bytelang Dictionary -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-book-bookmark placeholder-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bytelang Dictionary</h3>
+                        <p>Aplikasi kamus digital sederhana interaktif yang dirancang untuk penyimpanan, pencarian, dan pengelolaan berbagai kosakata bahasa indonesia & bahasa inggris dengan pencarian yang efisien.</p>
+                        <div class="project-tags">
+                            <span>Data Structures</span>
+                            <span>C / Algorithms</span>
+                            <span>Search & Indexing</span>
+                            <span>CLI / Console</span>
+                        </div>
+                        <div class="project-links">
+                            <!-- Link ke Repositori GitHub Proyek Kedua -->
+                            <a href="https://github.com/valentntnt/Bytelang-Dictionary" class="btn-sm" target="_blank">
+                                <i class="fa-brands fa-github"></i> Source Code / Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3: Bird Classification -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <i class="fa-solid fa-crow placeholder-icon"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Bird Species Classification (AI)</h3>
+                        <p>Aplikasi yang menggunakan model Computer Vision berbasis Deep Learning (CNN) untuk mengklasifikasikan berbagai spesies burung berdasarkan audio suara kicauan dengan pemrosesan citra digital.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Artificial Intelligence</span>
+                            <span>Computer Vision</span>
+                            <span>Deep Learning / CNN</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/valentntnt/Bird-Classification" class="btn-sm" target="_blank">
+                                <i class="fa-brands fa-github"></i> Source Code / Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <h2>Mari Terhubung!</h2>
+                <p>Saya terbuka untuk mencari pengalaman kerja baru di bidang Software Engineering, Cloud, atau Data Analysis.</p>
+            </div>
+            <div class="footer-contact">
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>valent.asman@binus.ac.id</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>+62 0821-2056-0078</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Bandung, Indonesia</span>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Valent Steve Asman. Built with HTML, CSS, & JS.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
